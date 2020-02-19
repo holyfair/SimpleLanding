@@ -215,7 +215,7 @@ html, body {
   background-size: cover; }
   @media (max-width: 650px) {
     .fourth--slide {
-      height: 50%; } }
+      height: 100%; } }
   .fourth--slide .fourth--slide--inner--container {
     margin: 0px 150px 0px 150px;
     flex-direction: column;
@@ -271,7 +271,7 @@ html, body {
   background-color: #f6f5f3; }
   @media (max-width: 650px) {
     .fifth--slide {
-      height: 50%; } }
+      height: 100%; } }
   .fifth--slide .fifth--slide--inner--container {
     height: 100%;
     width: 100%;
@@ -313,6 +313,9 @@ html, body {
     align-items: center;
     display: flex;
     flex-direction: column; }
+    @media (max-width: 650px) {
+      .sixth--slide .sixth--slide--inner--container {
+        height: 100%; } }
     .sixth--slide .sixth--slide--inner--container .sixth--slide--heading--container {
       display: flex;
       flex-direction: column;
@@ -372,7 +375,6 @@ html, body {
     @media (max-width: 650px) {
       .sixth--slide .terms--of--services {
         align-items: center;
-        padding-bottom: 30px;
         margin: 0px; }
         .sixth--slide .terms--of--services a {
           font-size: 12px; } }
@@ -381,6 +383,9 @@ html, body {
   height: 45%;
   width: 100%;
   display: flex; }
+  @media (max-width: 650px) {
+    .footer {
+      height: 100%; } }
   .footer .footer--left--block {
     height: 100%;
     width: 80%;

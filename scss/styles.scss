@@ -318,7 +318,7 @@ html, body {
   background-size: cover;
 
   @media (max-width: 650px) {
-    height: 50%;
+    height: 100%;
   }
 
    .fourth--slide--inner--container {
@@ -407,7 +407,7 @@ html, body {
   background-color: #f6f5f3;
 
   @media (max-width: 650px) {
-    height: 50%;
+    height: 100%;
   }
 
   .fifth--slide--inner--container {
@@ -471,6 +471,10 @@ html, body {
     align-items: center;
     display: flex;
     flex-direction: column;
+
+    @media (max-width: 650px) {
+      height: 100%;
+    }
 
     .sixth--slide--heading--container {
       display: flex;
@@ -583,6 +587,10 @@ html, body {
   height: 45%;
   width: 100%;
   display: flex;
+
+  @media (max-width: 650px) {
+    height: 100%;
+  }
 
   .footer--left--block {
     height: 100%;
