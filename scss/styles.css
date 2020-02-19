@@ -31,7 +31,8 @@
 
 .first--slide .firt--slide--left--block span, .second--slide .second--slide--inner--container .second--slide--heading span, .third--slide .third--slide-inner-root .third--slide--content--container div span, .fifth--slide .fifth--slide--inner--container div span, .sixth--slide .sixth--slide--inner--container .sixth--slide--heading--container span {
   font-family: 'Exo', sans-serif;
-  font-size: 40px; }
+  font-size: 40px;
+  line-height: 1.1; }
   @media (max-width: 650px) {
     .first--slide .firt--slide--left--block span, .second--slide .second--slide--inner--container .second--slide--heading span, .third--slide .third--slide-inner-root .third--slide--content--container div span, .fifth--slide .fifth--slide--inner--container div span, .sixth--slide .sixth--slide--inner--container .sixth--slide--heading--container span {
       font-size: 20px; } }
