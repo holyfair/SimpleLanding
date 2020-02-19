@@ -384,7 +384,6 @@ html, body {
       display: flex;
       align-items: center;
       justify-content: space-around;
-      margin-top: 150px;
 
       @media (max-width: 650px) {
         margin-top: 60px;
@@ -451,6 +450,10 @@ html, body {
     }
 
     img {
+
+      height: 250px;
+      width: auto;
+      
       @media (max-width: 650px) {
         width: 300px;
         height: auto;

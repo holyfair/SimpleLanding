@@ -253,8 +253,7 @@ html, body {
       width: 100%;
       display: flex;
       align-items: center;
-      justify-content: space-around;
-      margin-top: 150px; }
+      justify-content: space-around; }
       @media (max-width: 650px) {
         .fourth--slide .fourth--slide--inner--container .fourth--slide--logo--container {
           margin-top: 60px; }
@@ -297,10 +296,13 @@ html, body {
       @media (max-width: 650px) {
         .fifth--slide .fifth--slide--inner--container div h3 {
           padding: 0px 10px 0px 10px; } }
-    @media (max-width: 650px) {
-      .fifth--slide .fifth--slide--inner--container img {
-        width: 300px;
-        height: auto; } }
+    .fifth--slide .fifth--slide--inner--container img {
+      height: 250px;
+      width: auto; }
+      @media (max-width: 650px) {
+        .fifth--slide .fifth--slide--inner--container img {
+          width: 300px;
+          height: auto; } }
 
 .sixth--slide {
   height: 100%;
