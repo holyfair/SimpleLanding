@@ -238,6 +238,9 @@ html, body {
         padding-left: 8px; }
       .third--slide .third--slide-inner-root .third--slide--content--container div h3 {
         margin-top: 50px; }
+        @media (max-width: 768px) {
+          .third--slide .third--slide-inner-root .third--slide--content--container div h3 {
+            margin-top: 10pxz; } }
 
 .fourth--slide {
   height: 100%;
