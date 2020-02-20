@@ -90,12 +90,20 @@ html, body {
   display: flex;
   justify-content: center;
 
+  @media (max-height: 870px) {
+    height: fit-content;
+  }
+
   div {
     text-align: center;
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
+
+    @media (max-height: 870px) {
+      margin: 20px 0px 20px 0px;
+    }
   }
 
   span {
@@ -138,6 +146,10 @@ html, body {
   width: 100%;
   display: flex;
 
+  @media (max-height: 870px) {
+    height: fit-content;
+  }
+
   .firt--slide--left--block {
     width: 65%;
     display: flex;
@@ -158,6 +170,10 @@ html, body {
     h5 {
       @extend %label;
       margin-bottom: 20px;
+
+      @media (max-height: 870px) {
+        margin-top: 20px;
+      }
     }
 
     span {
@@ -174,12 +190,16 @@ html, body {
       margin-top: 50px;
       &:last-of-type {
         margin-top: 30px;
+
+        @media (max-height: 870px) {
+          margin-bottom: 20px;
+        }
       }
     }
   }
 
   .first--slide--right--block {
-    height: 100%;
+    height: auto;
     width: 35%;
     background: url("../assets/Rectangle\ 22.png");
     background-size: cover;
@@ -195,9 +215,17 @@ html, body {
   background: url("../assets/BG.png");
   background-size: cover;
 
+  @media (max-height: 870px) {
+    height: fit-content;
+  }
+
   .second--slide--inner--container {
     margin: 0px 190px 0px 190px;
     width: 100%;
+
+    @media (max-height: 870px) {
+      margin: 20px 190px 20px 190px;
+    }
 
     .second--slide--heading {
       display: flex;
@@ -332,8 +360,8 @@ html, body {
   background: url("../assets/Group\ 4.png");
   background-size: cover;
 
-  @media (max-width: 768px) {
-    height: 100%;
+  @media (max-height: 870px) {
+    height: fit-content;
   }
 
    .fourth--slide--inner--container {
@@ -400,6 +428,10 @@ html, body {
       align-items: center;
       justify-content: space-around;
 
+      @media (max-height: 870px) {
+        margin-bottom: 60px;
+      }
+
       @media (max-width: 768px) {
         margin-top: 60px;
 
@@ -420,8 +452,8 @@ html, body {
   align-items: center;
   background-color: #f6f5f3;
 
-  @media (max-width: 768px) {
-    height: 100%;
+  @media (max-height: 870px) {
+    height: fit-content;
   }
 
   .fifth--slide--inner--container {
@@ -433,7 +465,7 @@ html, body {
     justify-content: space-between;
 
     div {
-      margin-top: 110px;
+      margin: 110px 0px 60px 0px;
       width: 600px;
       display: flex;
       flex-direction: column;
@@ -457,19 +489,18 @@ html, body {
 
       h3 {
         @extend %text--centered;
+        margin-bottom: 30px;
 
         @media (max-width: 768px) {
-          padding: 0px 10px 0px 10px;
+          margin-bottom: 30px;
+          padding: 0px 40px 0px 40px;
         }
       }
     }
 
     img {
 
-      height: 250px;
-      width: auto;
-
-      @media (max-width: 768px) {
+      @media (max-width: 900px) {
         width: 300px;
         height: auto;
       }
@@ -490,8 +521,8 @@ html, body {
     display: flex;
     flex-direction: column;
 
-    @media (max-width: 768px) {
-      height: 100%;
+    @media (max-height: 870px) {
+      height: fit-content;
     }
 
     .sixth--slide--heading--container {
@@ -539,6 +570,7 @@ html, body {
     @media (max-width: 1200px) {
       flex-direction: column;
       align-items: center;
+      margin: 0px 0px 20px 0px;
     }
 
     input {
@@ -594,6 +626,10 @@ html, body {
   .terms--of--services {
     align-items: center;
 
+    @media (max-height: 870px) {
+      margin-bottom: 20px;
+    }
+
     @media (max-width: 768px) {
       align-items: center;
       margin: 0px;
@@ -610,8 +646,12 @@ html, body {
   width: 100%;
   display: flex;
 
+  @media (max-height:400px) {
+    height: auto;
+  }
+
   @media (max-width: 768px) {
-    height: 100%;
+    height: auto;
   }
 
   .footer--left--block {
