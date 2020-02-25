@@ -469,6 +469,8 @@ html, body {
   margin-top: 15px;
   color: #858584;
   cursor: pointer; }
+  .footer--box--link:hover {
+    border-bottom: 1px solid #858584; }
 
 .footer--box--heading {
   font-size: 20px;
