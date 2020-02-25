@@ -90,20 +90,12 @@ html, body {
   display: flex;
   justify-content: center;
 
-  @media (max-height: 650px) {
-    height: fit-content;
-  }
-
   div {
     text-align: center;
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
-
-    @media (max-height: 650px) {
-      margin: 20px 0px 20px 0px;
-    }
   }
 
   span {
@@ -146,10 +138,6 @@ html, body {
   width: 100%;
   display: flex;
 
-  @media (max-height: 650px) {
-    height: fit-content;
-  }
-
   .firt--slide--left--block {
     width: 65%;
     display: flex;
@@ -170,10 +158,6 @@ html, body {
     h5 {
       @extend %label;
       margin-bottom: 20px;
-
-      @media (max-height: 650px) {
-        margin-top: 20px;
-      }
     }
 
     span {
@@ -190,10 +174,6 @@ html, body {
       margin-top: 50px;
       &:last-of-type {
         margin-top: 30px;
-
-        @media (max-height: 650px) {
-          margin-bottom: 20px;
-        }
       }
     }
   }
@@ -214,10 +194,6 @@ html, body {
   align-items: center;
   background: url("../assets/BG.png");
   background-size: cover;
-
-  @media (max-height: 650px) {
-    height: fit-content;
-  }
 
   .second--slide--inner--container {
     margin: 0px 190px 0px 190px;
@@ -368,10 +344,6 @@ html, body {
   background: url("../assets/Group\ 4.png");
   background-size: cover;
 
-  @media (max-height: 650px) {
-    height: fit-content;
-  }
-
    .fourth--slide--inner--container {
     margin: 0px 150px 0px 150px; 
     flex-direction: column;
@@ -436,10 +408,6 @@ html, body {
       align-items: center;
       justify-content: space-around;
 
-      @media (max-height: 650px) {
-        margin-bottom: 60px;
-      }
-
       @media (max-width: 768px) {
         margin-top: 60px;
 
@@ -459,10 +427,6 @@ html, body {
   display: flex;
   align-items: center;
   background-color: #f6f5f3;
-
-  @media (max-height: 650px) {
-    height: fit-content;
-  }
 
   .fifth--slide--inner--container {
     height: 100%;
@@ -507,6 +471,8 @@ html, body {
     }
 
     img {
+      width: 500px;
+      height: 260px;
 
       @media (max-width: 650px) {
         width: 300px;
@@ -528,10 +494,6 @@ html, body {
     align-items: center;
     display: flex;
     flex-direction: column;
-
-    @media (max-height: 650px) {
-      height: fit-content;
-    }
 
     .sixth--slide--heading--container {
       display: flex;
@@ -634,10 +596,6 @@ html, body {
   .terms--of--services {
     align-items: center;
 
-    @media (max-height: 650px) {
-      margin-bottom: 20px;
-    }
-
     @media (max-width: 768px) {
       align-items: center;
       margin: 0px;
@@ -653,10 +611,6 @@ html, body {
   height: 45%;
   width: 100%;
   display: flex;
-
-  @media (max-height:400px) {
-    height: auto;
-  }
 
   @media (max-width: 768px) {
     height: auto;

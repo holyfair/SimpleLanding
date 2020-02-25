@@ -33,7 +33,7 @@
   font-family: 'Exo', sans-serif;
   font-size: 40px;
   line-height: 1.1; }
-  @media (max-width: 700px) {
+  @media (max-width: 650px) {
     .first--slide .firt--slide--left--block span, .second--slide .second--slide--inner--container .second--slide--heading span, .third--slide .third--slide-inner-root .third--slide--content--container div span, .fifth--slide .fifth--slide--inner--container div span, .sixth--slide .sixth--slide--inner--container .sixth--slide--heading--container span {
       text-align: center; } }
   @media (max-width: 768px) {
@@ -74,18 +74,12 @@ html, body {
   width: 100%;
   display: flex;
   justify-content: center; }
-  @media (max-height: 700px) {
-    .header {
-      height: fit-content; } }
   .header div {
     text-align: center;
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center; }
-    @media (max-height: 700px) {
-      .header div {
-        margin: 20px 0px 20px 0px; } }
   .header span {
     font-size: 60px;
     font-weight: 100;
@@ -114,16 +108,13 @@ html, body {
   height: 100%;
   width: 100%;
   display: flex; }
-  @media (max-height: 700px) {
-    .first--slide {
-      height: fit-content; } }
   .first--slide .firt--slide--left--block {
     width: 65%;
     display: flex;
     align-items: center; }
     .first--slide .firt--slide--left--block div {
       margin: 0px 200px 0px 200px; }
-      @media (max-width: 700px) {
+      @media (max-width: 650px) {
         .first--slide .firt--slide--left--block div {
           margin: 0px 50px 0px 50px; } }
       @media (max-width: 768px) {
@@ -131,9 +122,6 @@ html, body {
           margin: 0px 20px 0px 20px; } }
     .first--slide .firt--slide--left--block h5 {
       margin-bottom: 20px; }
-      @media (max-height: 700px) {
-        .first--slide .firt--slide--left--block h5 {
-          margin-top: 20px; } }
     .first--slide .firt--slide--left--block span::after {
       content: '....';
       color: #ff6d6d;
@@ -142,9 +130,6 @@ html, body {
       margin-top: 50px; }
       .first--slide .firt--slide--left--block p:last-of-type {
         margin-top: 30px; }
-        @media (max-height: 700px) {
-          .first--slide .firt--slide--left--block p:last-of-type {
-            margin-bottom: 20px; } }
   .first--slide .first--slide--right--block {
     height: auto;
     width: 35%;
@@ -159,13 +144,10 @@ html, body {
   align-items: center;
   background: url("../assets/BG.png");
   background-size: cover; }
-  @media (max-height: 700px) {
-    .second--slide {
-      height: fit-content; } }
   .second--slide .second--slide--inner--container {
     margin: 0px 190px 0px 190px;
     width: 100%; }
-    @media (max-height: 700px) {
+    @media (max-height: 650px) {
       .second--slide .second--slide--inner--container {
         margin: 20px 190px 20px 190px; } }
     .second--slide .second--slide--inner--container .second--slide--heading {
@@ -224,7 +206,7 @@ html, body {
         margin-right: 40px;
         width: 600px;
         height: 340px; }
-        @media (max-width: 700px) {
+        @media (max-width: 650px) {
           .third--slide .third--slide-inner-root .third--slide--content--container img {
             width: 400px;
             height: auto; } }
@@ -252,9 +234,6 @@ html, body {
   align-items: center;
   background: url("../assets/Group 4.png");
   background-size: cover; }
-  @media (max-height: 700px) {
-    .fourth--slide {
-      height: fit-content; } }
   .fourth--slide .fourth--slide--inner--container {
     margin: 0px 150px 0px 150px;
     flex-direction: column;
@@ -293,9 +272,6 @@ html, body {
       display: flex;
       align-items: center;
       justify-content: space-around; }
-      @media (max-height: 700px) {
-        .fourth--slide .fourth--slide--inner--container .fourth--slide--logo--container {
-          margin-bottom: 60px; } }
       @media (max-width: 768px) {
         .fourth--slide .fourth--slide--inner--container .fourth--slide--logo--container {
           margin-top: 60px; }
@@ -310,9 +286,6 @@ html, body {
   display: flex;
   align-items: center;
   background-color: #f6f5f3; }
-  @media (max-height: 700px) {
-    .fifth--slide {
-      height: fit-content; } }
   .fifth--slide .fifth--slide--inner--container {
     height: 100%;
     width: 100%;
@@ -341,10 +314,13 @@ html, body {
           .fifth--slide .fifth--slide--inner--container div h3 {
             margin-bottom: 30px;
             padding: 0px 40px 0px 40px; } }
-    @media (max-width: 700px) {
-      .fifth--slide .fifth--slide--inner--container img {
-        width: 300px;
-        height: auto; } }
+    .fifth--slide .fifth--slide--inner--container img {
+      width: 500px;
+      height: 260px; }
+      @media (max-width: 650px) {
+        .fifth--slide .fifth--slide--inner--container img {
+          width: 300px;
+          height: auto; } }
 
 .sixth--slide {
   height: 100%;
@@ -357,9 +333,6 @@ html, body {
     align-items: center;
     display: flex;
     flex-direction: column; }
-    @media (max-height: 700px) {
-      .sixth--slide .sixth--slide--inner--container {
-        height: fit-content; } }
     .sixth--slide .sixth--slide--inner--container .sixth--slide--heading--container {
       display: flex;
       flex-direction: column;
@@ -382,7 +355,7 @@ html, body {
   .sixth--slide form {
     display: flex;
     align-items: flex-end; }
-    @media (max-width: 700px) {
+    @media (max-width: 650px) {
       .sixth--slide form {
         flex-direction: column;
         align-items: center;
@@ -397,7 +370,7 @@ html, body {
       margin: 0px 30px 0px 30px; }
       .sixth--slide form input::placeholder {
         color: white; }
-      @media (max-width: 700px) {
+      @media (max-width: 650px) {
         .sixth--slide form input {
           margin: 10px 0px 0px 0px; } }
       @media (max-width: 768px) {
@@ -420,9 +393,6 @@ html, body {
       margin-top: 15px; }
   .sixth--slide .terms--of--services {
     align-items: center; }
-    @media (max-height: 700px) {
-      .sixth--slide .terms--of--services {
-        margin-bottom: 20px; } }
     @media (max-width: 768px) {
       .sixth--slide .terms--of--services {
         align-items: center;
@@ -434,9 +404,6 @@ html, body {
   height: 45%;
   width: 100%;
   display: flex; }
-  @media (max-height: 400px) {
-    .footer {
-      height: auto; } }
   @media (max-width: 768px) {
     .footer {
       height: auto; } }
