@@ -40,7 +40,7 @@
   font-size: 40px;
   line-height: 1.1;
 
-  @media (max-width: 1200px) {
+  @media (max-width: 700px) {
     text-align: center;
   }
 
@@ -90,7 +90,7 @@ html, body {
   display: flex;
   justify-content: center;
 
-  @media (max-height: 870px) {
+  @media (max-height: 700px) {
     height: fit-content;
   }
 
@@ -101,7 +101,7 @@ html, body {
     flex-direction: column;
     justify-content: center;
 
-    @media (max-height: 870px) {
+    @media (max-height: 700px) {
       margin: 20px 0px 20px 0px;
     }
   }
@@ -146,7 +146,7 @@ html, body {
   width: 100%;
   display: flex;
 
-  @media (max-height: 870px) {
+  @media (max-height: 700px) {
     height: fit-content;
   }
 
@@ -158,7 +158,7 @@ html, body {
     div {
       margin: 0px 200px 0px 200px;
 
-      @media (max-width: 1200px) {
+      @media (max-width: 700px) {
         margin: 0px 50px 0px 50px;
       }
       
@@ -171,7 +171,7 @@ html, body {
       @extend %label;
       margin-bottom: 20px;
 
-      @media (max-height: 870px) {
+      @media (max-height: 700px) {
         margin-top: 20px;
       }
     }
@@ -191,7 +191,7 @@ html, body {
       &:last-of-type {
         margin-top: 30px;
 
-        @media (max-height: 870px) {
+        @media (max-height: 700px) {
           margin-bottom: 20px;
         }
       }
@@ -215,7 +215,7 @@ html, body {
   background: url("../assets/BG.png");
   background-size: cover;
 
-  @media (max-height: 870px) {
+  @media (max-height: 700px) {
     height: fit-content;
   }
 
@@ -223,7 +223,7 @@ html, body {
     margin: 0px 190px 0px 190px;
     width: 100%;
 
-    @media (max-height: 870px) {
+    @media (max-height: 700px) {
       margin: 20px 190px 20px 190px;
     }
 
@@ -254,6 +254,10 @@ html, body {
         @extend %box;
         &:nth-of-type(2) {
           margin: 0px 40px 0px 40px;
+
+          @media (max-width: 320px) {
+            margin: 0px 20px 0px 20px;
+          }
         }
 
         img {
@@ -315,7 +319,7 @@ html, body {
         width: 600px;
         height: 340px;
 
-        @media (max-width: 1200px) {
+        @media (max-width: 700px) {
           width: 400px;
           height: auto;
         }
@@ -364,7 +368,7 @@ html, body {
   background: url("../assets/Group\ 4.png");
   background-size: cover;
 
-  @media (max-height: 870px) {
+  @media (max-height: 700px) {
     height: fit-content;
   }
 
@@ -432,7 +436,7 @@ html, body {
       align-items: center;
       justify-content: space-around;
 
-      @media (max-height: 870px) {
+      @media (max-height: 700px) {
         margin-bottom: 60px;
       }
 
@@ -456,7 +460,7 @@ html, body {
   align-items: center;
   background-color: #f6f5f3;
 
-  @media (max-height: 870px) {
+  @media (max-height: 700px) {
     height: fit-content;
   }
 
@@ -504,7 +508,7 @@ html, body {
 
     img {
 
-      @media (max-width: 900px) {
+      @media (max-width: 700px) {
         width: 300px;
         height: auto;
       }
@@ -525,7 +529,7 @@ html, body {
     display: flex;
     flex-direction: column;
 
-    @media (max-height: 870px) {
+    @media (max-height: 700px) {
       height: fit-content;
     }
 
@@ -571,7 +575,7 @@ html, body {
     display: flex;
     align-items: flex-end;
 
-    @media (max-width: 1200px) {
+    @media (max-width: 700px) {
       flex-direction: column;
       align-items: center;
       margin: 0px 0px 20px 0px;
@@ -589,7 +593,7 @@ html, body {
         color: white;
       }
 
-      @media (max-width: 1200px) {
+      @media (max-width: 700px) {
         margin: 10px 0px 0px 0px
       }
 
@@ -630,7 +634,7 @@ html, body {
   .terms--of--services {
     align-items: center;
 
-    @media (max-height: 870px) {
+    @media (max-height: 700px) {
       margin-bottom: 20px;
     }
 
