@@ -333,6 +333,9 @@ html, body {
     align-items: center;
     display: flex;
     flex-direction: column; }
+    @media (max-width: 768px) {
+      .sixth--slide .sixth--slide--inner--container {
+        height: fit-content; } }
     .sixth--slide .sixth--slide--inner--container .sixth--slide--heading--container {
       display: flex;
       flex-direction: column;
