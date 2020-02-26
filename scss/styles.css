@@ -294,7 +294,7 @@ html, body {
     align-items: center;
     justify-content: space-between; }
     .fifth--slide .fifth--slide--inner--container div {
-      margin: 110px 0px 60px 0px;
+      margin: 50px 0px 0px 0px;
       width: 600px;
       display: flex;
       flex-direction: column;
